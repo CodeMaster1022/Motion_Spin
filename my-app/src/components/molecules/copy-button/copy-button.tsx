@@ -16,10 +16,10 @@ const CopyButton = forwardRef<HTMLDivElement, Props>(
       navigator.clipboard?.writeText(text).then(() => setCopied(true));
     };
 
-    // const Icon = useMemo(
-    //   () => (copied ? CheckCircleIcon : DocumentDuplicateIcon),
-    //   [copied]
-    // );
+    const Icon = useMemo(
+      () => (copied ? CheckCircleIcon : DocumentDuplicateIcon),
+      [copied]
+    );
     const title = copied ? "Copied" : "Click to copy to clipboard";
 
     return (
