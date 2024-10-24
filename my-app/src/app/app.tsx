@@ -1,4 +1,5 @@
-import SpinGame from "components/organisms/card/SpinWheel";
+
+import SpinGame from "components/organisms/card/spinWheel";
 
 function App() {
   return (
