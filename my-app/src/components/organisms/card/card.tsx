@@ -33,8 +33,8 @@ const Card = forwardRef<HTMLDivElement, CardProps>(
           </span>
         </div>
         <div className="flex flex-col h-full">
-          {/* <h3 className="text-2xl font-bold text-blue-500">{title}</h3>
-          <p className="mt-2 text-base text-gray-300 flex-1">{description}</p> */}
+          <h3 className="text-2xl font-bold text-blue-500">{title}</h3>
+          <p className="mt-2 text-base text-gray-300 flex-1">{description}</p>
           <div className="pt-6">
             <a
               href={href}
