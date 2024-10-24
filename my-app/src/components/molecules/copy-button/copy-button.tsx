@@ -31,12 +31,12 @@ const CopyButton = forwardRef<HTMLDivElement, Props>(
         onClick={onClick}
         title={title}
       >
-        <span className="text-gray-900">
+        {/* <span className="text-gray-900">
           <span className="inline text-gray-500" aria-hidden="true">
             ${" "}
           </span>
           {text}
-        </span>
+        </span> */}
         <span className="sr-only">(click to copy to clipboard)</span>
         <div>
           <Icon className="w-6 h-6" />
