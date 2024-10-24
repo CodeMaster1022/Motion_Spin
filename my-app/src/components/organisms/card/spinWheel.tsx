@@ -13,7 +13,7 @@ const segments: SpinSegment[] = [
   { id: '3', text: 'won 300', color: '#FFCE56' },
   { id: '4', text: 'won 400', color: '#4BC0C0' },
   { id: '5', text: 'won 500', color: '#9966FF' },
-  { id: '6', text: 'try again', color: '#FF9F40' },
+  { id: '6', text: 'won 600', color: '#FF9F40' },
 ]
 
 export default function SpinGame() {
