@@ -61,14 +61,7 @@ export default function SpinGame() {
               const startY = 50 + 50 * Math.sin((startAngle * Math.PI) / 180)
               const endX = 50 + 50 * Math.cos((endAngle * Math.PI) / 180)
               const endY = 50 + 50 * Math.sin((endAngle * Math.PI) / 180)
-              const angle = 360 / segments.length
-              const startAngle = index * angle
-              const endAngle = (index + 1) * angle
-
-              const startX = 50 + 50 * Math.cos((startAngle * Math.PI) / 180)
-              const startY = 50 + 50 * Math.sin((startAngle * Math.PI) / 180)
-              const endX = 50 + 50 * Math.cos((endAngle * Math.PI) / 180)
-              const endY = 50 + 50 * Math.sin((endAngle * Math.PI) / 180)
+              
 
               const pathData = [
                 `M 50 50`,
