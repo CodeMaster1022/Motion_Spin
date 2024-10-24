@@ -71,13 +71,13 @@ export default function SpinGame() {
               ].join(' ')
 
               return (
-                <path
-                  key={segment.id}
-                  d={pathData}
-                  fill={segment.color}
-                  stroke="#000"
-                  strokeWidth="0.5"
-                />
+                // <path
+                //   key={segment.id}
+                //   d={pathData}
+                //   fill={segment.color}
+                //   stroke="#000"
+                //   strokeWidth="0.5"
+                // />
               )
             })}
             {segments.map((segment, index) => {
