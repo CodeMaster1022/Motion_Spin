@@ -8,12 +8,12 @@ interface SpinSegment {
 }
 
 const segments: SpinSegment[] = [
-  { id: '1', text: 'won 100', color: '#FF6384' },
-  { id: '2', text: 'won 200', color: '#36A2EB' },
-  { id: '3', text: 'won 300', color: '#FFCE56' },
-  { id: '4', text: 'won 400', color: '#4BC0C0' },
-  { id: '5', text: 'won 500', color: '#9966FF' },
-  { id: '6', text: 'won 600', color: '#FF9F40' },
+  // { id: '1', text: 'won 100', color: '#FF6384' },
+  // { id: '2', text: 'won 200', color: '#36A2EB' },
+  // { id: '3', text: 'won 300', color: '#FFCE56' },
+  // { id: '4', text: 'won 400', color: '#4BC0C0' },
+  // { id: '5', text: 'won 500', color: '#9966FF' },
+  // { id: '6', text: 'won 600', color: '#FF9F40' },
 ]
 
 export default function SpinGame() {
