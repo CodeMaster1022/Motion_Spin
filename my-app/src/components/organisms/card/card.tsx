@@ -36,12 +36,12 @@ const Card = forwardRef<HTMLDivElement, CardProps>(
           <h3 className="text-2xl font-bold text-blue-500">{title}</h3>
           <p className="mt-2 text-base text-gray-300 flex-1">{description}</p>
           <div className="pt-6">
-            <a
+            {/* <a
               href={href}
               target="_blank"
               rel="noreferrer"
               className="text-white font-bold transition tracking-wide hover:text-blue-400"
-            >
+            > */}
               {/* Visit documentation → */}
             </a>
           </div>
