@@ -87,19 +87,19 @@ export default function SpinGame() {
               const textY = 50 + 35 * Math.sin((midAngle * Math.PI) / 180)
 
               return (
-                <text
-                  key={segment.id}
-                  x={textX}
-                  y={textY}
-                  textAnchor="middle"
-                  dominantBaseline="middle"
-                  fill="#fff"
-                  fontSize="4"
-                  fontWeight="bold"
-                  transform={`rotate(${midAngle}, ${textX}, ${textY})`}
-                >
-                  {segment.text}
-                </text>
+                // <text
+                //   key={segment.id}
+                //   x={textX}
+                //   y={textY}
+                //   textAnchor="middle"
+                //   dominantBaseline="middle"
+                //   fill="#fff"
+                //   fontSize="4"
+                //   fontWeight="bold"
+                //   transform={`rotate(${midAngle}, ${textX}, ${textY})`}
+                // >
+                //   {segment.text}
+                // </text>
               )
             })}
           </motion.g>
