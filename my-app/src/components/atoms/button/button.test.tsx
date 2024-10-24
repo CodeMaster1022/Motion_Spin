@@ -11,7 +11,7 @@ describe("Button test", () => {
       <Button onClick={onClick}>{label}</Button>
     );
 
-    const button = getByRole("button");
+    const button = getByRole("buttons");
 
     expect(getByText(label)).toBeInTheDocument();
     expect(button).toBeInTheDocument();
