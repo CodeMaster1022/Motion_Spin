@@ -28,9 +28,9 @@ const Card = forwardRef<HTMLDivElement, CardProps>(
         {...rest}
       >
         <div>
-          {/* <span className="absolute right-3 bottom-3 flex items-center justify-center rounded-md opacity-10">
+          <span className="absolute right-3 bottom-3 flex items-center justify-center rounded-md opacity-10">
             <Icon className="h-12 w-12 text-white" aria-hidden="true" />
-          </span> */}
+          </span>
         </div>
         <div className="flex flex-col h-full">
           <h3 className="text-2xl font-bold text-blue-500">{title}</h3>
