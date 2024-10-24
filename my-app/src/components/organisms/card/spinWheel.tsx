@@ -113,14 +113,7 @@ export default function SpinGame() {
             onClick={spinWheel}
             disabled={spinning}
           >
-            Spin
-          </button>
-          <button
-            className="w-16 h-16 bg-black text-white rounded-full flex items-center justify-center text-xl font-bold"
-            onClick={spinWheel}
-            disabled={spinning}
-          >
-            Spin
+            Start
           </button>
         </div>
       </div>
